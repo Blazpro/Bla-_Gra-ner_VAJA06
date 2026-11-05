@@ -14,21 +14,21 @@ namespace vaja6 {
         public string u_geslo;
         public static int stIg = 1;
 
-        public Igralec() {
+        public Igralec() { //Privzeti konstruktor
             u_ime = "";
             u_geslo = "";
             id = stIg;
             stIg++;
         }
 
-        public int Id {
+        public int Id { //Metoda ki vrača id (celo število)
             get
             {
                 return id;
             }
         }
 
-        public string U_ime {
+        public string U_ime { //Bralno - pisna lasnost za ime
             get
             {
                 return u_ime;
@@ -39,7 +39,7 @@ namespace vaja6 {
             }
         }
 
-        public string U_geslo
+        public string U_geslo //Bralno - pisna lasnost za geslo
         {
             get
             {
@@ -51,7 +51,7 @@ namespace vaja6 {
             }
         }
 
-        public static int StIg
+        public static int StIg //Samo bralna lasnost za stig
         {
             get { return stIg; }
         }
